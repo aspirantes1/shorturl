@@ -1,0 +1,27 @@
+.modal_window {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0.5rem;
+    background-color: rgba(127, 255, 212, 0.478);
+}
+
+.window_in_modal {
+    background-color: lightskyblue;
+    border: solid 1px rgb(0, 122, 82);
+}
+
+.windowgain {
+    background-color: #dcdcdcdc;
+    border-radius: 0.25rem;
+}
+
+body {
+    background-image: url("../img/home.svg");
+    fill: lightseagreen;
+    background-color: lightskyblue;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,132 @@
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.flexbit {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.grid {
+    display: grid;
+}
+
+.novisible {
+    opacity: 0;
+}
+
+.w100 {
+    width: 100%;
+}
+.h100 {
+    height: 100%;
+}
+
+.padding025 {
+    padding: 0.25rem;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 5rem;
+    background-color: rgba(220, 220, 220, 0.816);
+}
+
+.aligncontentcenter {
+    align-content: center;
+}
+
+.s11 {
+    background-image: linear-gradient(lightseagreen 50%, lightseagreen 50%), linear-gradient(silver 50%, silver 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: black;
+    padding-bottom: 3px;
+    transition: .2s ease-in-out;
+ }
+
+ .s11:hover {
+    background-size: 100% 2px, 100% 2px;
+    text-shadow: 0 0px 0.25rem lightseagreen;
+ }
+
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+input[type=file]::file-selector-button, button {
+    transition-duration: 0.2s;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid lightseagreen;
+    border-radius: 0.25rem;
+}
+
+button:hover, input[type=file]::file-selector-button:hover {
+    cursor: pointer;
+    background-color: lightseagreen; /* Green */
+    color: white;
+}
+
+.flexjc {
+    justify-content: space-around;
+}
+
+.marginauto {
+    margin: auto;
+}
+.margin025 {
+    margin: 0.25rem;
+}
+.margin0 {
+    margin: 0rem;
+}
+.blur5px {
+    backdrop-filter: blur(5px);
+}
+.outline {
+    outline: solid 2px gainsboro;
+}
+
+.form_right {
+    border: solid 1px #555;
+    background-color: #5555;
+    border-left-style: unset;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.form_left {
+    border: solid 1px #555;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.form_one {
+    border: solid 1px #555;
+    background-color: #5555;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.borderradius025 {
+    border-radius: 0.25rem;
+}
+
+.title:hover ~ .title_on, .title_on:hover, title:focus-within ~ .title_on{ 
+    opacity: 1;
+} 
+
+.title_on {
+    opacity: 0;
+    background-color: lightseagreen;
+    transition: 0.2s;
+}
